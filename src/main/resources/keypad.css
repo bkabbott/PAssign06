@@ -1,0 +1,28 @@
+.grid-pane {
+    -fx-background-color: #2c2c2c;
+    -fx-padding: 15;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-alignment: center;
+}
+
+.button {
+    -fx-min-width: 70;
+    -fx-min-height: 70;
+    -fx-pref-width: 70;
+    -fx-pref-height: 70;
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+    -fx-background-radius: 35;
+    -fx-background-color: #505050;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #6a6a6a;
+}
+
+.button:pressed {
+    -fx-background-color: #888888;
+}
