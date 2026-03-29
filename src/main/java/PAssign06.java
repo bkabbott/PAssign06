@@ -11,7 +11,7 @@ import javafx.scene.layout.GridPane;
  * Author: Brian Abbott
  * Created on: 3/27/26
  * Last modified: 3/27/26
- * Description: To be filled in by the user.
+ * Description: A JavaFX GUI Application that creates teh layout of a phone keypad using GridPane and CSS.
  */
 
 public class PAssign06 extends Application {
