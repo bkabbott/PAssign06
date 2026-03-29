@@ -2,6 +2,7 @@ import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
+import javafx.geometry.Pos;
 import javafx.scene.layout.GridPane;
 
 /**
@@ -18,6 +19,7 @@ public class PAssign06 extends Application {
     @Override
     public void start(Stage primaryStage) {
         GridPane keypadGridPane = new GridPane();
+        keypadGridPane.setAlignment(Pos.CENTER);
 
         keypadGridPane.add(new Button("1"), 0, 0);
         keypadGridPane.add(new Button("2"), 1, 0);
@@ -32,7 +34,7 @@ public class PAssign06 extends Application {
         keypadGridPane.add(new Button("0"), 1, 3);
         keypadGridPane.add(new Button("#"), 2, 3);
 
-        Scene scene = new Scene(keypadGridPane);
+        Scene scene = new Scene(keypadGridPane, 250, 350);
         scene.getStylesheets().add(getClass().getResource("/keypad.css").toExternalForm());
         primaryStage.setScene(scene);
         // render title
